@@ -1,0 +1,25 @@
+=====================================
+Tuesday, March 13, 2018
+=====================================
+
+Time to resurrect my old Humorscope
+site, in the form of a react/redux page
+that uses thing-a-day to retrieve
+random stuff.
+
+What I'll try:
+
+css grid
+react
+redux
+thing-a-day
+ES6
+mongodb
+
+The site itself will have 12 randomly
+selected predictions per day, a daily
+quote, and a daily thing to be grateful
+for (or maybe a daily lifehack?)
+
+Let's see how incremental we can make
+this?
