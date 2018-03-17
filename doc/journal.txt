@@ -33,3 +33,12 @@ today, which is just so incredibly irritating.
 I'm going to check this in, just because.
 
 Phooey.
+
+=====================================
+Friday, March 16, 2018
+=====================================
+
+I think I want to use something like the "Holy Grail" CSS Grid layout.
+
+I'll make a sample directory to use as a basis for the React side of things.
+
