@@ -64,3 +64,9 @@ support adding and editing categories and entries.
 Let's keep this so simple that it makes a good example for people starting
 from github, and focus on making it the content, not the code, that makes people
 find out about it.
+
+=====================================
+Sunday, March 18, 2018
+=====================================
+I found some free clip-art for zodiac signs. I'm figuring out
+how to use it as CSS sprites so I only have to download the composite.

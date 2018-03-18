@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './images/newlogo.png';
 import './App.css';
+import Horoscope from './Horoscope';
 
 class App extends Component {
 
@@ -17,7 +18,7 @@ class App extends Component {
           {datestr}
         </h4>
         </header>
-
+        <Horoscope />
       </div>
     );
   }
