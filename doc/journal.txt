@@ -42,3 +42,25 @@ I think I want to use something like the "Holy Grail" CSS Grid layout.
 
 I'll make a sample directory to use as a basis for the React side of things.
 
+=====================================
+Saturday, March 17, 2018
+=====================================
+
+On second thought, I don't actually need something as complicated as the Holy Grail 
+CSS layout. At least for the first rough draft, I just want the simplest thing that
+will possibly work:
+
+Header
+Current date
+Quote of the day
+Table with zodiac sign, name, date on the left, daily "prediction" on the right
+
+For the landing page I don't need any login.
+
+I'd like to have an admin page where I can add or edit predictions or quotes,
+but even that can come later. I'll need a second set of APIs to thing-a-day to
+support adding and editing categories and entries.
+
+Let's keep this so simple that it makes a good example for people starting
+from github, and focus on making it the content, not the code, that makes people
+find out about it.
