@@ -68,5 +68,14 @@
   width: 120px;
   height: 120px;
   display: inline-block;
-  background: url(./images/zodiac.png) 0 0;
+  background-color: black;
+  background-image: url(./images/zodiac.png);
+}
+.sign {
+  background-color: #222;
+  color: white;
+  padding: 0;
+}
+.HoroscopeTable {
+  border-spacing: 0px;
 }
