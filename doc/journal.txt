@@ -70,3 +70,10 @@ Sunday, March 18, 2018
 =====================================
 I found some free clip-art for zodiac signs. I'm figuring out
 how to use it as CSS sprites so I only have to download the composite.
+
+=====================================
+Tuesday, March 20, 2018
+=====================================
+
+I'm just trying to get more of the format working today (and label the signs).
+
