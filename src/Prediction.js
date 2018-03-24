@@ -3,16 +3,14 @@ import './App.css';
 
 function Prediction(props) {
     return (
-        <tr className="Prediction">
-            <td>
-                <div id={props.name.toLowerCase()} className="zodiacpic">                
-                </div>
-                <div className="sign">
-                {props.name}<br/>{props.when}
-                </div>
-            </td>
-            <td></td>
-        </tr>
+        <div className="horoscopeRow">
+            <div className="sign">
+                <div className="zodiacPic" id={props.name.toLowerCase()} />
+                <div className="zodiacName">{props.name}</div>
+                <div className="zodiacDates">{props.when}</div>
+            </div>
+            <div className="prediction">{props.prediction}</div>
+        </div>
     );
 }
 

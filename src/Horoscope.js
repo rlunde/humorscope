@@ -23,13 +23,11 @@ class Horoscope extends Component {
     for (let s in signs) {
       // debugger;
       predictions.push(<Prediction user="default" day="today" key={signs[s].name}
-        name={signs[s].name} when={signs[s].dates} />);
+        name={signs[s].name} when={signs[s].dates} prediction="placeholder for prediction" />);
     }
     return (
-      <div className="Horoscope">
-        <table className="HoroscopeTable"><tbody>
-          {predictions}
-        </tbody></table>
+      <div className="horoscope">
+        {predictions}
       </div>
     );
   }
