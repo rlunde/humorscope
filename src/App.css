@@ -6,9 +6,10 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 100px;
   grid-row: 1; /* row 1 of App-header */
   justify-self: center;
+  margin-top: 10px;
 }
 
 .App-header {
