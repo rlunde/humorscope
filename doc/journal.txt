@@ -77,3 +77,27 @@ Tuesday, March 20, 2018
 
 I'm just trying to get more of the format working today (and label the signs).
 
+=====================================
+Saturday, March 24, 2018
+=====================================
+
+I converted the format to CSS Grid earlier this week. Now it's time to
+hook it up to data via thing-a-day. I'm putting my old data for predictions
+and quotes here. (Most of them are very lame by my current standards, but
+I'll add an edit/delete/insert admin page later.)
+
+I tried using mongoimport with predictions first, since I was able to trim the
+data down to one line per prediction:
+ 
+Rons-MBP:data ron$ ./load_predictions.sh
+2018-03-24T19:23:55.026-0400	no collection specified
+2018-03-24T19:23:55.026-0400	using filename 'predictions' as collection
+2018-03-24T19:23:55.050-0400	connected to: localhost
+2018-03-24T19:23:55.100-0400	imported 4812 documents
+
+Now I realize I'm going to have trouble picking a random record with GUIDs
+as _id (which it made for me). I think I may have to add a field that's just
+a record counter (or something) to make random selection easier -- or perhaps
+update each record to use the counter as _id.
+
+I'll try figuring out pymongo. That should be fun.
