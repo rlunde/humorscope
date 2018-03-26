@@ -101,3 +101,38 @@ a record counter (or something) to make random selection easier -- or perhaps
 update each record to use the counter as _id.
 
 I'll try figuring out pymongo. That should be fun.
+
+=====================================
+Sunday, March 25, 2018
+=====================================
+
+It turns out that picking random records is super easy. 
+
+db.predictions.aggregate({ $sample: {size: 10}})
+
+Now I need to load the quotes data.
+
+The quote.data file is one or more lines of text per quote separated
+by a # on a line by itself.
+
+It just took me around half an hour to install pymongo, given that
+I got weird errors when running pip the way it said to:
+python -m pip install pymongo
+...
+ImportError: cannot import name _remove_dead_weakref
+...
+
+But when I run pip without the "python -m" it worked fine. I also downloaded
+the latest stable python 2.7.10 and 3.6.4 as part of that, although it didn't 
+fix anything.
+
+This actually worked too:
+python3 -m pip install pymongo
+
+As did this:
+pip3 install --upgrade pip
+
+OK, now to parse the file...
+
+I wrote a quick and dirty script to load the quotes collection from the file.
+Looks like it worked.
