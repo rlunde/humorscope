@@ -136,3 +136,39 @@ OK, now to parse the file...
 
 I wrote a quick and dirty script to load the quotes collection from the file.
 Looks like it worked.
+
+=====================================
+Monday, April 30, 2018
+=====================================
+
+I had a horrible awful very bad month. Mostly.
+
+I'm trying to start to get back to this tonight.
+
+Let's break it down:
+
+1) generate the daily page
+  a) get the daily quote
+    i) don't repeat any quote for as long as possible
+  b) get the 12 daily predictions
+    i) they should all be unique
+    ii) don't repeat any predictions for as long as possible
+    iii) (optional) don't repeat any predictions for the same sign even longer
+  c) format the page
+2) cache the page
+3) get the cached page or generate it
+
+Let's start with the quote of the day.
+
+Damn it. I have to fix the hoek security vulnerability, which I did
+yesterday for another project, but I didn't write down how. Here we
+go again...
+
+Here's the report:
+https://nvd.nist.gov/vuln/detail/CVE-2018-3728
+
+npm install hoek@5.0.3 --save
+git commit -a -m"fix hoek security issue"
+git push
+
+
