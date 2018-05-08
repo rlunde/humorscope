@@ -171,4 +171,12 @@ npm install hoek@5.0.3 --save
 git commit -a -m"fix hoek security issue"
 git push
 
+=====================================
+Monday, May 7, 2018
+=====================================
+
+I wonder how hard it would be to turn this into a React Native app? I'm going
+to go to the Google I/O extended event tomorrow, which has an Andoid IoT event.
+It'd be cool if I didn't have to write Java for Android to do the same thing
+as I want to do with this.
 
