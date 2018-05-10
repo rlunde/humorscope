@@ -180,3 +180,20 @@ to go to the Google I/O extended event tomorrow, which has an Andoid IoT event.
 It'd be cool if I didn't have to write Java for Android to do the same thing
 as I want to do with this.
 
+
+=====================================
+Wednesday, May 9, 2018
+=====================================
+
+I tried installing Quokka.js since MPJ goes on about it, but even after
+finally figuring out how to get it to "almost" work on a React file (after spending
+a whole lot of time) it wouldn't actually work due to trying to import "./App.css".
+It says:
+
+Quokka #1 (node: v8.1.4, babel: v6.26.0)​​​​
+​​Only 'Pro' edition of Quokka.js supports project files import.​​
+
+Sorry, but I'm not willing to spend a bunch of money in the hope that something
+might actually do something. If you give me a trial, the trial should actually
+work in a way that show's "something".
+
