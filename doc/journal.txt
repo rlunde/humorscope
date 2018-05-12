@@ -197,3 +197,19 @@ Sorry, but I'm not willing to spend a bunch of money in the hope that something
 might actually do something. If you give me a trial, the trial should actually
 work in a way that show's "something".
 
+=====================================
+Friday, May 11, 2018
+=====================================
+
+I just realized I'd removed quokka.js, but forgot to revert all the dev dependencies,
+so I just did that.
+
+Next steps are:
+a) since I can't get docker working appropriately on mac, just install thing-a-day with a local mongodb
+b) call thing-a-day from Humorscope
+  i) keep track of 12 unique predictions and 1 unique quote of the day
+  ii) switch to new predictions/quote every day
+  iii) don't re-use them for as long as possible
+
+Most of that will be dev/testing in thing-a-day -- I just need to call into an API
+for that from humorscope.
